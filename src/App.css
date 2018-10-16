@@ -1,0 +1,65 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+.app {
+  padding: 20px;
+}
+
+.calculator {
+  padding: 20px;
+  border: solid lightgray;
+  max-width: 400px;
+  margin: 15px auto 0 auto;
+}
+
+.board {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cal_result {
+  border: none;
+  border-bottom: solid 2px lightgray;
+  text-align: right;
+  font-size: 45px;
+  width: 100%;
+  box-shadow: none;
+}
+
+.button {
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: lightblue;
+}
+
+.is_zero {
+  grid-column: span 2;
+}
+.is_clear {
+  grid-column: span 3;
+}
+
+.is_clear {
+  background: lightgreen;
+}
+
+.is_equals {
+  background: royalblue;
+}

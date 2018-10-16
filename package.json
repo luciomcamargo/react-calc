@@ -1,0 +1,36 @@
+{
+  "homepage": "https://luciomcamargo.github.io/react-calc",
+  "name": "react-calc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "mathjs": "^5.1.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "2.0.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luciomcamargo/react-calc.git"
+  }
+}
