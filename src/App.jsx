@@ -205,6 +205,9 @@ class App extends Component {
             </buttons>
           </div>
         </div>
+        <div className="gitlink">
+          <a href="https://github.com/luciomcamargo/react-calc">GitHub Repo</a>
+        </div>
       </div>
     );
   }
